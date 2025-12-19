@@ -22,7 +22,6 @@
     "unbundle": "github:atahrijouti/unbundle#7d213db"
   },
   "dependencies": {
-    "three": "^0.178.0",
-    "typecript": "^0.0.1-security"
+    "three": "^0.178.0"
   }
 }
