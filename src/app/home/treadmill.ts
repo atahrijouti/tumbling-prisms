@@ -18,7 +18,7 @@ import {
   OPAQUE_COLOR,
   OPAQUE_SHAPE_DOWN_SCALE,
   WIDTH,
-} from "./config.js"
+} from "./config.ts"
 
 const { degToRad } = MathUtils
 

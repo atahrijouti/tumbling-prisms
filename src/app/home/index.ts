@@ -3,9 +3,9 @@ import { html, type Metadata } from "unbundle"
 import { OrbitControls } from "three/addons/controls/OrbitControls.js"
 
 import { BoxGeometry, Color, Mesh, MeshBasicMaterial, Vector3, WebGLRenderer } from "three"
-import { HEIGHT, TUMBLE_DURATION, WIDTH } from "./config.js"
-import { TreadmillScene } from "./scene.js"
-import { mkNextAnimationFrame } from "./utils.js"
+import { HEIGHT, TUMBLE_DURATION, WIDTH } from "./config.ts"
+import { TreadmillScene } from "./scene.ts"
+import { mkNextAnimationFrame } from "./utils.ts"
 
 declare global {
   interface Window {

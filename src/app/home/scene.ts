@@ -1,6 +1,6 @@
 import { Group, PerspectiveCamera, Scene, Vector3 } from "three"
-import { CARPET_LENGTH, HEIGHT, MAX_PRISM_COUNT, WIDTH } from "./config.js"
-import { Treadmill } from "./treadmill.js"
+import { CARPET_LENGTH, HEIGHT, MAX_PRISM_COUNT, WIDTH } from "./config.ts"
+import { Treadmill } from "./treadmill.ts"
 
 export class TreadmillScene extends Scene {
   treadmills: Treadmill[]
